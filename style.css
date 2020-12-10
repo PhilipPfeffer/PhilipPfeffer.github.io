@@ -9,6 +9,10 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
 }
+.dark-mode {
+  background-color: white;
+  color: black;
+}
 
 /* Center website */
 .main {
@@ -22,24 +26,36 @@ h1 {
   color: white;
 } 
 .dark-mode {
-  color: black;
+  color: red;
 }
 
 h2 {
   color: white;
 }
+/* .dark-mode {
+  color: black;
+} */
 
 h3 {
   color: black;
 }
+/* .dark-mode {
+  color: white;
+} */
 
 h4 {
   color: black;
 }
+/* .dark-mode {
+  color: white;
+} */
 
 p {
   color: black;
 }
+/* .dark-mode {
+  color: white;
+} */
 
 a {
     text-decoration: none;
@@ -69,7 +85,15 @@ a:hover {
     display:table-cell;
     vertical-align:middle;
 }
+.dark-mode {
+  color: red;
+}
+
+.header p {
+  color: white;
+}
 /* END HEADER */
+
 
 /* CONTENTS */
 .column-links {
@@ -82,6 +106,7 @@ a:hover {
   color: white;
 }
 /* END CONTENTS */
+
 
 /* COLUMN TYPES */
 .column-thin-left {
