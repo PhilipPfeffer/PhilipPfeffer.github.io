@@ -38,6 +38,19 @@ p {
     color: black;
 }
 
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
 .row {
   margin: 8px -16px;
 }
