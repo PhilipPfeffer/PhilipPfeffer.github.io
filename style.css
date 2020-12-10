@@ -61,11 +61,27 @@ p {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33%;
+  width: 50%;
 }
+
+.column img {
+    border-radius: 10px;
+    width: 40%; 
+    height: 40%;
+}
+
+.column h3, .column h4 {
+    color: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 /* Clear floats after rows */ 
 .row:after {
@@ -80,10 +96,6 @@ p {
   padding: 10px;
   border-radius: 10px;
   padding-top: 0.2em;
-}
-
-.content h3, .content h4 {
-    line-height: 1em;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
