@@ -112,6 +112,7 @@ a:hover {
   border-radius: 10px;
   padding-top: 0.2em;
   text-align: justify;
+  box-shadow: -10px -10px #888888;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
