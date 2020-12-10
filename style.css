@@ -81,6 +81,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
 
 /* Clear floats after rows */ 
@@ -93,9 +95,10 @@ p {
 /* Content */
 .content {
   background-color: white;
-  padding: 10px;
+  padding: 25px;
   border-radius: 10px;
   padding-top: 0.2em;
+  text-align: justify;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
