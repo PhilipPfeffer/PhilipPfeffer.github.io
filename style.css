@@ -25,50 +25,37 @@ h1 {
   word-break: break-all;
   color: white;
 } 
-.dark-mode {
-  color: red;
-}
+body.dark-mode h1 { color: black; }
 
 h2 {
   color: white;
 }
-/* .dark-mode {
-  color: black;
-} */
+body.dark-mode h2 { color: black; }
+
 
 h3 {
   color: black;
 }
-/* .dark-mode {
-  color: white;
-} */
+body.dark-mode h3 { color: white; }
+
 
 h4 {
   color: black;
 }
-/* .dark-mode {
-  color: white;
-} */
+body.dark-mode h4 { color: white; }
+
 
 p {
   color: black;
 }
-/* .dark-mode {
-  color: white;
-} */
 
 a {
     text-decoration: none;
 }
-a:visited {
+a:visited, a:link, a:hover {
     color: black;
 }
-a:link {
-    color: black;
-}
-a:hover {
-    color: black;
-}
+body.dark-mode a:visited, a:link, a:hover { color: black; }
 
 .row {
   margin: 8px -16px;
@@ -85,13 +72,11 @@ a:hover {
     display:table-cell;
     vertical-align:middle;
 }
-.dark-mode {
-  color: red;
-}
 
 .header p {
   color: white;
 }
+body.dark-mode p { color: black; }
 /* END HEADER */
 
 
@@ -105,6 +90,13 @@ a:hover {
   text-align: center;
   color: white;
 }
+body.dark-mode h3 { color: black; }
+
+.column-links h4 {
+  text-align: center;
+  color: white;
+}
+body.dark-mode h4 { color: black; }
 /* END CONTENTS */
 
 
@@ -168,7 +160,6 @@ a:hover {
   padding-top: 0.2em;
   text-align: justify;
   box-shadow: -10px -10px #c2c2c2;
-  /* box-shadow: 0 0 0.1em 0.1em #ccc; */
 }
 
 @media only screen and (max-width: 900px) {
