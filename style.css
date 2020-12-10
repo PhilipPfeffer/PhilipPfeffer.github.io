@@ -6,36 +6,39 @@
 body {
   background-color: black;
   padding: 20px;
-  font-family: Arial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
 }
 
 /* Center website */
 .main {
-    max-width: 1000px;
-    margin: auto;
+  max-width: 1000px;
+  margin: auto;
 }
 
 h1 {
-    font-size: 50px;
-    word-break: break-all;
-    color: white;
+  font-size: 50px;
+  word-break: break-all;
+  color: white;
+} 
+.dark-mode {
+  color: black;
 }
 
 h2 {
-    color: white;
+  color: white;
 }
 
 h3 {
-    color: black;
+  color: black;
 }
 
 h4 {
-    color: black;
+  color: black;
 }
 
 p {
-    color: black;
+  color: black;
 }
 
 a {
@@ -55,7 +58,7 @@ a:hover {
   margin: 8px -16px;
 }
 
-/* The header */
+/* HEADER */
 .header img {
     float: right;
     position: relative;
@@ -66,11 +69,42 @@ a:hover {
     display:table-cell;
     vertical-align:middle;
 }
+/* END HEADER */
+
+/* CONTENTS */
+.column-links {
+  float: left;
+  width: 50%;
+}
+
+.column-links h3 {
+  text-align: center;
+  color: white;
+}
+/* END CONTENTS */
+
+/* COLUMN TYPES */
+.column-thin-left {
+  float: left;
+  width: 33%;
+}
+.column-thin-right {
+  float: right;
+  width: 33%;
+}
+.column-wide-left {
+  float: left;
+  width: 66%;
+}
+.column-wide-right {
+  float: right;
+  width: 66%;
+}
+/* END COLUMN TYPES */
 
 
 /* Add padding BETWEEN each column */
-.row,
-.row > .column {
+.row, .row > .column {
   padding: 8px;
 }
 
@@ -78,12 +112,6 @@ a:hover {
 .column {
   float: left;
   width: 50%;
-}
-
-.column img {
-    border-radius: 10px;
-    width: 40%; 
-    height: 40%;
 }
 
 .column h3, .column h4 {
@@ -96,6 +124,8 @@ a:hover {
     margin-right: auto;
     margin-top: 1%;
     margin-bottom: 1%;
+    border-radius: 10px;
+    width: 40%; 
   }
 
 /* Clear floats after rows */ 
@@ -113,6 +143,18 @@ a:hover {
   padding-top: 0.2em;
   text-align: justify;
   box-shadow: -10px -10px #c2c2c2;
+  /* box-shadow: 0 0 0.1em 0.1em #ccc; */
+}
+
+@media only screen and (max-width: 900px) {
+  .column-profile-left {
+    width: 100%;
+    /* float: none; */
+  }
+  .column-profile-right {
+      width: 100%;
+      /* float: none; */
+  }  
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

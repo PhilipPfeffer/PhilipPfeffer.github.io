@@ -4,67 +4,72 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<!-- <script type="text/javascript" src="js/dark_toggle.js"></script> -->
 </head>
 <body>
 
 <!-- MAIN (Center website) -->
-
-<!-- Header -->
 <div class="main">
-
+    
+<!-- HEADER -->
 <div class="header">
 <span style="vertical-align:middle; float:left; line-height: 50px"><h1>Philip Mateo Pfeffer</h1></span>
 <span style="vertical-align:middle; float:right; line-height: 50px"><img src="imgs/stanford_logo.png" alt="stanford"/></span>
-
 <div style="clear: both;"></div>
 <p style="color: white">a.k.a. Yung Commit -m</p>
 </div>
-<hr>
-<hr>
+<!-- END HEADER -->
 
-<!-- Just some spacing -->
-<div class="row"></div>
-
-<h1 id="contents">CONTENTS</h1>
+<!-- CONTENTS -->
+<hr>
 <hr>
 <div class="row">
-    <a href="#me" style="color: white;"><h2>ME</h2></a>
-    <a href="#orgs" style="color: white;"><h2>MY ORGANISATIONS</h2></a>
-    <a href="#projects" style="color: white;"><h2>MY PROJECTS</h2></a>
-</div>
-        
-
-<h1 id="me">ME</h1>
+    <div class="column-links">
+        <a href="#orgs" style="color: white;"><h3>MY ORGANISATIONS</h3></a>
+    </div>
+    <div class="column-links">
+        <a href="#projects" style="color: white;"><h3>MY PROJECTS</h3></a>
+    </div>
+</div>        
 <hr>
+<hr>
+<!-- END CONTENTS -->
 
+<div class="row"></div> <!-- Spacing -->
+
+<!-- ABOUT ME -->
 <div class="row">
-    <div class="column">
+    <div class="column-thin-left">
+        <img src="imgs/profile.jpg" alt="profile" class="center"/>
+    </div>
+
+    <div class="column-wide-right">
         <div class="content">
         <p>
             I'm a Stanford student. 
-            I like harware, AI and creating / managing teams. 
+            I like hardware, AI and creating / managing teams. 
             I bring a process-centric mindset to all my work.
         </p>
         </div>
     </div>
-
-    <div class="column">
-        <img src="imgs/profile.jpg" alt="profile" class="center"/>
-    </div>
 </div>
+<!-- END ABOUT ME -->
 
+<div class="row"></div> <!-- Spacing -->
 
-<h1 id="orgs">MY ORGANISATIONS</h1>
+<!-- MY ORGS -->
+<h2 id="orgs">MY ORGANISATIONS</h2>
 <hr>
+<div class="row"></div> <!-- Spacing -->
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
-    <div class="column">
+    <div class="column-wide-left">
         <div class="content">
             <h3>The Creator's Community</h3>
             <h4>Product Hub of Stanford Students</h4>
             <p> We are creating Stanford’s go-to place for future founders to make building side-projects into a relentless, achievable habit. 
-                I founded & am growing community. 
+                I founded & am growing the community. 
                 Our first ‘Gap Month’ of three themed houses - 15 total future founders - has just wrapped. 
                 Currently, we're interviewing the next cohort of aspiring founders (please get in touch!) for admission to the second Gap Month.          
                 <!-- We are Stanford’s go-to place for aspiring founders to make building side-projects into a relentless habit.
@@ -76,14 +81,14 @@
         </div>
     </div>
     
-    <div class="column">
-        <img style="width: 30%; height:30%" src="imgs/product_hub_logo.png" alt="product hub logo" class="center">
+    <div class="column-thin-right">
+        <img src="imgs/product_hub_logo.png" alt="product hub logo" class="center">
     </div>
 </div>
 
 
 <div class="row">
-    <div class="column">
+    <div class="column-wide-left">
         <a href="http://www.flexquarter.co.uk/" style="text-decoration: none;">
         <div class="content">
             <h3>FLEX Quarter</h3>
@@ -93,15 +98,18 @@
         </div>
     </a>
     </div>
-
-    <div class="column">
-        <img style="background-color: whitesmoke; width: 60%; height:60%;" src="imgs/flex_quarter_logo.png" alt="FLEX Quarter logo"  class="center">
+    <div class="column-thin-right">
+        <img style="background-color: whitesmoke; width: 60%; height:60%; border-radius: 0px;" src="imgs/flex_quarter_logo.png" alt="FLEX Quarter logo"  class="center">
     </div>
+
 </div>
+<!-- END MY ORGS -->
 
 
-<h1 id="projects">MY PROJECTS</h1>
+<!-- MY PROJECTS -->
+<h2 id="projects">MY PROJECTS</h2>
 <hr>
+<div class="row"></div> <!-- Spacing -->
 
 <div class="row">
     <div class="column">
@@ -127,7 +135,7 @@
     </div>
 
     <div class="column">
-        <!-- <img style="background-color: whitesmoke; width: 80%; height:80%; border-radius: 0px;" src="imgs/flex_quarter_logo.png" alt="FLEX Quarter logo"  class="center"> -->
+
     </div>
 </div>
 
@@ -138,6 +146,8 @@
         </div>
     </div>
 </div>
+
+<!-- END MY PROJECTS -->
 
 <!-- <p style="color: white">I hate making websites.</p> -->
 <!-- END MAIN -->
