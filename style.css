@@ -142,6 +142,16 @@ body.dark-mode h3 { color: black; }
   color: white;
 }
 body.dark-mode h4 { color: black; }
+
+.column-links {
+  float: left;
+  width: 50%;
+}
+.column-level h3 {
+  text-align: center;
+  color: white;
+}
+body.dark-mode h3 { color: black; }
 /* END COLUMN TYPES */
 
 
