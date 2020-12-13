@@ -126,6 +126,25 @@ body.dark-mode h4 { color: black; }
 /* END COLUMN TYPES */
 
 
+/* COLUMN TYPES */
+.column-level {
+  float: left;
+  width: 33%;
+}
+.column-level h3 {
+  text-align: center;
+  color: white;
+}
+body.dark-mode h3 { color: black; }
+
+.column-level h4 {
+  text-align: center;
+  color: white;
+}
+body.dark-mode h4 { color: black; }
+/* END COLUMN TYPES */
+
+
 /* Add padding BETWEEN each column */
 .row, .row > .column {
   padding: 8px;
