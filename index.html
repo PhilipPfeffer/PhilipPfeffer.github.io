@@ -69,11 +69,11 @@
         <img src="imgs/profile.jpg" alt="profile" class="center"/>
         <div class="row">
             <div class="column-links">
-                <a href="https://github.com/PhilipPfeffer"><h3>GITHUB</h3> </a>
+                <a href="https://github.com/PhilipPfeffer" target="_blank"><h3>GITHUB</h3> </a>
             </div>
         
             <div class="column-links">
-                <a href="https://www.linkedin.com/in/phil-pfeffer/"><h3>LINKEDIN</h3> </a>
+                <a href="https://www.linkedin.com/in/phil-pfeffer/" target="_blank"><h3>LINKEDIN</h3> </a>
             </div>
         </div>
     </div>
@@ -89,7 +89,11 @@
     </div>
 </div>
 
-
+<!-- OLD BIO 
+    I'm a British-Argentine currently working towards my EE Bachelors at Stanford, looking to eventually pursue a co-term master’s degree in CS with a focus in AI. 
+    I grew up doing hobbyist electronics, building a 3D printer, pursuing British A-Level Electronics and founding seven UK robotics teams (for students between ages 11 and 18), amongst other things. 
+    At Stanford, I've taken a deeper interest in the overlap between EE and CS, contributing to the Stanford Student Space Initiative and diving into my favourite classes at Stanford - Digital System Design (EE108) and Operating Systems from the Ground Up (CS107E).
+-->
 <!-- END ABOUT ME -->
 
 
@@ -107,7 +111,7 @@
     </div> -->
     <div class="column-wide-left">
         <div class="content">
-            <h3>The Creator's Community</h3>
+            <h3>The Creator's Community (April 2020 - Present)</h3>
             <h4>Product Hub of Stanford Students</h4>
             <p> We are creating Stanford’s go-to place for future founders to make building side-projects into a relentless, achievable habit. 
                 I founded and am growing the community. 
@@ -132,15 +136,15 @@
 <div class="row">
     <div class="column-wide-left">
         <div class="content">
-            <h3>FLEX Quarter</h3>
+            <h3>FLEX Quarter (July 2020 - Present)</h3>
             <p>I run an intensive weekly workout group for friends, FLEX Quarter. We're so official, we even have a site:
-                <a href="http://www.flexquarter.co.uk/">flexquarter.co.uk</a>!
+                <a href="http://www.flexquarter.co.uk/" target="_blank">flexquarter.co.uk</a>!
             </p>
-            <a href="http://www.flexquarter.co.uk/" style="text-decoration: underline"><p>Take me to the site!</p></a>
+            <a href="http://www.flexquarter.co.uk/" target="_blank" style="text-decoration: underline"><p>Take me to the site!</p></a>
         </div>
     </div>
     <div class="column-thin-right">
-        <img style="background-color: white; width: 60%; height:60%; border-radius: 0px; margin-top: 55px;" src="imgs/flex_quarter_logo.png" alt="FLEX Quarter logo"  class="center">
+        <img onclick="dark_button(this)" style="background-color: white; width: 60%; height:60%; border-radius: 0px; margin-top: 55px;" src="imgs/flex_quarter_logo.png" alt="FLEX Quarter logo"  class="center">
     </div>
 
 </div>
@@ -148,9 +152,9 @@
 <div class="row">
     <div class="column-wide-left">
         <div class="content">
-            <h3>FORGE Robotics</h3>
+            <h3>FORGE Robotics (2017-2018)</h3>
             <p> I founded this organisation in secondary school (that's high school for the americans) to make robotics accessible to UK primary school children.
-                I recruited students from my school's robotics team (read about that below) to mentor the primary school teams, allowing the older students to practice their leadership and organisation while giving
+                I recruited students from my school's robotics team (read about Westminster FIRST Robotics) to mentor the primary school teams, allowing the older students to practice their leadership and organisation while giving
                 back to the community.
             </p>
             <a href="orgs/forgerobotics.html" style="text-decoration: underline"><p>Read more...</p></a>
@@ -159,8 +163,24 @@
     <div class="column-thin-right">
         <img style="background-color: white; width: 60%; height:60%; border-radius: 0px;" src="imgs/forge_4students.png" alt="FORGE Robotics Logo logo"  class="center">
     </div>
-
 </div>
+
+
+<div class="row">
+    <div class="column-wide-left">
+        <div class="content">
+            <h3>Westminster FIRST Robotics: FORGE (2015-2017)</h3>
+            <p>I founded this in 2015 to inspire other students to work together to build towards a common goal,
+                to learn about robotics, 
+                and to bring Westminster into the 21st century.</p>
+        </div>
+    </div>
+    <div class="column-thin-right">
+        <img id="forge_uni" style="background-color: white; width: 60%; height:60%; border-radius: 0px;" src="imgs/forge_unicycle.png" alt="Westminster FORGE Robotics Logo logo"  class="center">
+    </div>
+</div>
+
+
 <!-- END MY ORGS -->
 
 
@@ -175,7 +195,7 @@
 <div class="row">
     <div class="column">
         <div class="content">
-            <h3>Haptic Vest</h3>
+            <h3>Haptic Vest (September 2020 - Present)</h3>
             <h4>Category</h4>
             <p>AI on edge hardware</p>
             <h4>What is it?</h4>
@@ -198,7 +218,80 @@
     </div>
 
     <div class="column">
+        <div class="content">
+            <h3>FastAI Projects</h3>
+        </div>
+    </div>
 
+    <div class="column">
+        <div class="content">
+            <h3>Almanac: The Marauder's Guide</h3>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <h3>PicMe</h3>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <h3>DUTothy</h3>
+            <p>A fellow EE student and I worked together to build up digital systems on an FPGA using Verilog. 
+                This culminated in a final project where my teammate and I created a basic hardware logic-based version of the popular <a href="https://www.ableton.com/en/push/" target="_blank">Ableton Push</a>, an instrument/music synthesiser. 
+                We worked tirelessly to implement three main features were: a looping backbeat that you could design and change on the spot, an accelerometer programmed to act like the obscure instrument known as a Theremin, and a live waveform display to visualise music in the style of <a href="https://youtu.be/bpOSxM0rNPM" target="_blank">this Arctic Monkeys music video</a>. 
+                Combined with the ability to change the music to sound like four different instruments by manipulating the waveforms, as well as the accelerometer's double function as a Minority Report-esque control, it was a fulfilling and challenging two-week project.
+            </p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <h3>Bio-Inspired Algorithms (SWARM & Genetic)</h3>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <h3>Boggo The Doggo</h3>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <h3>Pfelizidad</h3>
+            <p>CS107E was similarly project-based. 
+                I programmed my own operating system on a bare-metal Raspberry Pi in eight weeks and for the final project created a live music interpretation software that would display sheet music, listen to you play music live on a piano, and show you which notes you hit and which you missed. 
+                Another tough and fascinating project!
+                </p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <h3>Lib Dems Website (UK)</h3>
+        </div>
+    </div>
+
+
+    <div class="column">
+        <div class="content">
+            <h3>Mayday! Translator</h3>
+            <h4>Morse Code and Semaphore Translator</h4>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <h3>Electric Guitar</h3>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <h3>Burgular Alarm</h3>
+        </div>
     </div>
 </div>
 
