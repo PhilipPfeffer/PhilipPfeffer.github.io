@@ -52,11 +52,10 @@ p {
 a {
     text-decoration: none;
 }
-/*
-a:visited, a:link, a:hover {
-    color: black;
+
+ol {
+  color: black;
 }
-body.dark-mode a:visited, a:link, a:hover { color: black; } */
 
 .row {
   margin: 8px -16px;
@@ -179,6 +178,22 @@ body.dark-mode h3 { color: black; }
     border-radius: 10px;
     width: 40%; 
   }
+
+/*  */
+.orgs_imgs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  width: 40%;
+  border-radius: 40px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+}
+body.dark-mode .orgs_imgs { border-color: black; }
 
 /* Clear floats after rows */ 
 .row:after {
