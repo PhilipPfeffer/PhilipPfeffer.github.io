@@ -244,10 +244,22 @@ body.dark-mode .orgs_imgs { border-color: black; }
   .column {
     width: 100%;
   }
-  .column-links {
+  /* .column-links {
+    width: 100%;
+  } */
+  .column-level {
     width: 100%;
   }
-  .column-level {
+  .column-thin-left {
+    width: 100%;
+  }
+  .column-thin-right {
+    width: 100%;
+  }
+  .column-wide-left {
+    width: 100%;
+  }
+  .column-wide-right {
     width: 100%;
   }
 }
