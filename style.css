@@ -171,7 +171,6 @@ body.dark-mode h4 { color: black; }
 /* Add padding BETWEEN each column */
 .row {
   margin: 8px -16px;
-  position: relative;
 }
 
 .row, .row > .column {
@@ -185,18 +184,18 @@ body.dark-mode h4 { color: black; }
 }
 
 .column h3, .column h4 {
-    color: black;
+  color: black;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border-radius: 10px;
-    width: 40%; 
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 10px;
+  width: 40%; 
+}
 
 /*  */
 .orgs_imgs {
