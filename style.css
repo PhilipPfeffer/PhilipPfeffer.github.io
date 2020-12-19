@@ -32,6 +32,7 @@ h1 {
   font-size: 50px;
   word-break: break-all;
   color: white;
+  display: inline;
 } 
 body.dark-mode h1 { color: black; }
 
@@ -225,13 +226,6 @@ body.dark-mode .orgs_imgs { border-color: black; }
   .column {
     width: 50%;
   }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
   .column-level {
     width: 100%;
   }
@@ -251,6 +245,14 @@ body.dark-mode .orgs_imgs { border-color: black; }
     margin-top: 20px;
     margin-bottom: 20px;
   }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
 }
 
 
