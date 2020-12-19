@@ -151,6 +151,26 @@ body.dark-mode h3 { color: black; }
 body.dark-mode h4 { color: black; }
 /* END COLUMN TYPES */
 
+/* CONTENT */
+.content {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  padding-top: 0.2em;
+  text-align: justify;
+  box-shadow: -10px -10px #c2c2c2;
+}
+
+.content h3 {
+  text-align: left;
+  color: black;
+}
+
+.content h4 {
+  text-align: left;
+  color: black;
+}
+/* END CONTENT */
 
 /* Add padding BETWEEN each column */
 .row, .row > .column {
@@ -198,16 +218,6 @@ body.dark-mode .orgs_imgs { border-color: black; }
   content: "";
   display: table;
   clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 25px;
-  border-radius: 10px;
-  padding-top: 0.2em;
-  text-align: justify;
-  box-shadow: -10px -10px #c2c2c2;
 }
 
 @media only screen and (max-width: 900px) {
