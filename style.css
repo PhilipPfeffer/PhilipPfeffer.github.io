@@ -66,6 +66,14 @@ ol {
   color: black;
 }
 
+ul {
+  color: black;
+}
+
+blockquote {
+  color: black;
+}
+
 /* HEADER */
 .header img {
     float: right;
