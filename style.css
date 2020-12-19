@@ -89,6 +89,17 @@ body.dark-mode h3 { color: black; }
 /* END HEADER */
 
 
+/* HEADER FOR PAGES WITH 'HOME'*/
+.text-header {
+  text-align: left;
+}
+
+.text-header h3 {
+color: white;
+}
+body.dark-mode h3 { color: black; }
+/* END HEADER */
+
 /* CONTENTS */
 .column-links {
   float: left;
