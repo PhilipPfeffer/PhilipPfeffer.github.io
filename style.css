@@ -37,6 +37,7 @@ body.dark-mode h1 { color: black; }
 
 h2 {
   color: white;
+  display: inline;
 }
 body.dark-mode h2 { color: black; }
 
@@ -95,7 +96,7 @@ body.dark-mode h3 { color: black; }
 }
 
 .text-header h3 {
-color: white;
+  color: white;
 }
 body.dark-mode h3 { color: black; }
 /* END HEADER */
