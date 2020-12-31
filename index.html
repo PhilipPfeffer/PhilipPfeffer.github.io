@@ -91,7 +91,7 @@
             <br>
             Ambition: start my own company(s).
             <br><br>
-            Talk to me in English, Spanish or French; or even help me practice my modest Chinese! 
+            Talk to me in English, Spanish or French; or help me practice my modest Chinese! 
         </p>
         </div>
     </div>
@@ -212,7 +212,35 @@
 <div class="row">
     <div class="column">
         <div class="content">
-            <h3>Haptic Vest (September 2020 - Present)</h3>
+            <!-- I am currently building a haptic vest so that I can 1) Better understand the state-of-the-art of computer vision on small hardware, 2) Experiment with my own ideas, and 3) Contribute to constructing an augmented reality for humans. In my many projects, it is the hardest I have attempted.
+
+While diving deep into AI this year, I became obsessed with the question: "Since forward propagation is mostly just multiply-accumulates, would you speed up inference on hardware by converting mulltiply ops to bit-shifts?". Which lead to question: "What if you make every parameter in the network a power of two? That would mean you can use bit shifts AND downsize the number of bytes the model takes." 
+
+I challenged myself to build a three-class image classification model ('people', 'cars' & 'neither') for a haptic vest. The catch? The model has to run on an Arduino Nano, which has only 1MB of flash storage, including the space for pictures taken by the camera! Why the Nano? Because the circuitry has to be light for the haptic vest wearer's comfort and cheap(ish) to buy. The other satisficing metric? Speed. The latency of inference has to be very low. Otherwise, what the user sees and feels would be completely out of sync.
+
+I spun two components of this project into final projects in my AI courses so I could use university time to focus on my side-project. The more papers I read, the more ideas I try, the more I realise I have to learn, and the deeper my obsession becomes. The final papers are available on my GitHub through my portfolio website. They're a start, and there is still lots of unexploited potential.
+
+The incredibly tight constraints of this project mean that there is a tussle between my ability to improve model accuracy and keep the model small enough to fit on-chip. It is not enough to arbitrarily scale the network, as most applications would have one do. It has forced me to deeply understand the maths behind neural networks so that I can exploit efficiency wherever I can find it. It has forced me to deeply understand the keras computer vision library - off-the-shelf functionality isn't enough, I need to design my own optimisers and play with gradient descent equations. It has forced me to be much more creative in determining where and when user experience needs to trade off with statistics.
+
+The intersection of hardware and AI software is where I am most keen to learn, experiment and contribute.
+
+
+
+I founded a community for the entrepreneurial Stanford students doing ambitious side projects: The Creator's Community.
+
+Most people imagine Stanford as the place where people are ripping wires out of the walls to build their projects. Or the place where everyone is working on a startup. It is simply not the case. Most project makers exist as islands, relying on self-motivation or class final projects to keep their project momentum high. 
+
+Horrified by this, I created a club where people create their own side projects, but do it together, tracking each other's momentum, sharing war stories over "water-cooler" chats. We ask our members to imagine what they would do if they had a "gap month", completely free to do what they want. And then, we ask them to build those projects during the school term. We ran our first gap month last term with 15 creators, separated into three themed houses. Next term, The Creator's Community will level up its calibre and membership.
+
+I'm proud of this because I, along with my cherished team, managed to identify a problem that deeply affected many students, not just myself. And we're addressing it. In the team, we have maintained a culture of learning, so we constantly work to improve our own process for designing The Creator's Community framework. In Joshua Dong, especially, I have found a friend and an invaluable intellect.
+
+
+I heard about this from my friend at Stanford, Joshua Dong, who has helped me build The Creator's Community. 
+
+What compelled me to join? As I mention in my cover letter below: I am keen to work for Matician because I believe in the power of robotics to transform the human experience, letting us focus entirely on intellectual tasks. I have honestly never been so excited reading a company’s website as when I read Matician’s. I strongly believe Alan Kay when he said that “people who are really serious about software should make their own hardware”. It has guided the way I study electrical engineering and computer science at Stanford, where I have strived to understand each level of abstraction from the transistor to computer vision. I aim to work at the intersection of hardware and software at the highest level and believe I would thrive in Matician’s culture.
+
+-->
+            <h3 id="haptic_vest">Haptic Vest (September 2020 - Present)</h3>
             <h4>Category: AI, Computer Vision & Edge Hardware</h4>
             <h4>What is it?</h4>
             <p> Imagine being visually impaired but still able to feel the movement of surrounding crowds and cars on your body. 
