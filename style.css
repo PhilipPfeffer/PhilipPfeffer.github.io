@@ -180,11 +180,13 @@ body.dark-mode h4 { color: black; }
 .content h3 {
   text-align: left;
   color: black;
+  font-family: 'Inter',sans-serif;
 }
 
 .content h4 {
   text-align: left;
   color: black;
+  font-family: 'Inter',sans-serif;
 }
 /* END CONTENT */
 
