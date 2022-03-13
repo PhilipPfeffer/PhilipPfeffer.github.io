@@ -146,6 +146,11 @@ body.dark-mode h4 { color: black; }
   float: right;
   width: 66%;
 }
+.column-full {
+  float: right;
+
+  width: 97%;
+}
 /* END COLUMN TYPES */
 
 
@@ -260,6 +265,9 @@ body.dark-mode .orgs_imgs { border-color: black; }
     width: 100%;
   }
   .column-wide-right {
+    width: 100%;
+  }
+  .column-wide-full {
     width: 100%;
   }
   .orgs_imgs {
